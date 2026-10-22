@@ -1,10 +1,10 @@
-Arcano Póker: carpeta lista para GitHub Pages
+Arcano 21: carpeta lista para GitHub Pages
 
-1. Creá un repositorio nuevo en GitHub (por ejemplo "arcano-poker").
+1. Creá un repositorio nuevo en GitHub (por ejemplo "arcano-21") o reemplazá los archivos del repo que ya tenés.
 2. Subí TODOS los archivos de esta carpeta a la raíz del repo (index.html, manifest.json, sw.js y las imágenes .png).
-3. En el repo: Settings > Pages > Build and deployment > "Deploy from a branch" > rama main, carpeta / (root) > Save.
-4. En uno o dos minutos queda en https://TU-USUARIO.github.io/arcano-poker/
-5. En el celu abrí ese link y elegí "Agregar a pantalla de inicio" (Chrome: menú de los tres puntos; Safari: botón Compartir).
+3. En el repo: Settings > Pages > Deploy from a branch > main, carpeta / (root) > Save.
+4. Abrí https://TU-USUARIO.github.io/arcano-21/ en el celu y elegí "Agregar a pantalla de inicio".
 
-Para actualizar el juego más adelante: reemplazá index.html en el repo y subí el número de VERSION en sw.js
-(por ejemplo de 'arcano-v1' a 'arcano-v2') para que el celu descargue la versión nueva.
+La partida se guarda sola en el dispositivo (localStorage). Ojo: la versión abierta en el navegador y la instalada
+en la pantalla de inicio guardan por separado.
+Para actualizar más adelante: reemplazá index.html y subí el número de VERSION en sw.js ('arcano21-v2', etc.).

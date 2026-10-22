@@ -1,14 +1,14 @@
 {
-  "name": "Arcano Póker",
-  "short_name": "Arcano Póker",
-  "description": "Póker roguelike con comodines, arcanos y astros.",
+  "name": "Arcano 21",
+  "short_name": "Arcano 21",
+  "description": "Blackjack roguelike con comodines, arcanos y mazos modificables.",
   "lang": "es-AR",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#0b1626",
-  "theme_color": "#0b1626",
+  "background_color": "#6a35c4",
+  "theme_color": "#6a35c4",
   "icons": [
     {
       "src": "icon-192.png",
