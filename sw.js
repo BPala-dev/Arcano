@@ -1,5 +1,5 @@
 // Subí el número de VERSION cada vez que actualices index.html para que el celu tome la versión nueva.
-const VERSION='arcano21-v5';
+const VERSION='arcano21-v7';
 const ARCHIVOS=['./','./index.html','./manifest.json','./icon-192.png','./icon-512.png','./apple-touch-icon.png'];
 self.addEventListener('install',e=>{
   e.waitUntil(caches.open(VERSION).then(c=>c.addAll(ARCHIVOS)).then(()=>self.skipWaiting()));
